@@ -11,3 +11,6 @@ vaultEvents.on('recordUpdated', record => {
 vaultEvents.on('recordDeleted', record => {
   console.log(`[EVENT] Record deleted: ID ${record.id}, Name: ${record.name}`);
 });
+
+
+
