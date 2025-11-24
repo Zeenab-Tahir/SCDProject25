@@ -61,4 +61,3 @@ async function deleteRecord(id) {
 }
 
 module.exports = { addRecord, listRecords, updateRecord, deleteRecord };
-
